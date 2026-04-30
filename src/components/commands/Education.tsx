@@ -1,33 +1,31 @@
-import { EduIntro, EduList } from "../styles/Education.styled";
 import { Wrapper } from "../styles/Output.styled";
 
 const Education: React.FC = () => {
   return (
     <Wrapper data-testid="education">
-      <EduIntro>Here is my education background!</EduIntro>
-      {eduBg.map(({ title, desc }) => (
-        <EduList key={title}>
-          <div className="title">{title}</div>
-          <div className="desc">{desc}</div>
-        </EduList>
-      ))}
+      <p>Formation :</p>
+      <br />
+
+      <p>🎓 Titre professionnel Administratrice d’Infrastructures Sécurisées</p>
+      <p>- Simplon Valenciennes</p>
+      <p>- Niveau 6 (Bac +3/4)</p>
+      <p>- 2023 – 2024</p>
+
+      <br />
+
+      <p>🎓 Titre professionnel Technicienne Supérieure Systèmes et Réseaux</p>
+      <p>- Simplon Valenciennes</p>
+      <p>- Niveau 5 (Bac +2)</p>
+      <p>- 2022 – 2023</p>
+
+      <br />
+
+      <p>🎓 DEUG d’Histoire</p>
+      <p>- Université Rennes 2</p>
+      <p>- Niveau Bac +2</p>
+      <p>- 2013</p>
     </Wrapper>
   );
 };
-
-const eduBg = [
-  {
-    title: "B.Sc (Hons) in Computing",
-    desc: "Edinburgh Napier University | 2018 ~ 2019",
-  },
-  {
-    title: "HND in Computing & System Development",
-    desc: "Info Myanmar University | 2016 - 2018",
-  },
-  {
-    title: "IELTS 6.5",
-    desc: "British Council Myanmar | 2017",
-  },
-];
 
 export default Education;
