@@ -46,6 +46,7 @@ export const commands: Command = [
 { cmd: "help", desc: "liste des commandes", tab: 9 },
 { cmd: "clear", desc: "effacer le terminal", tab: 8 },
 { cmd: "history", desc: "historique des commandes", tab: 6 },
+{ cmd: "welcome", desc: "message de bienvenue", tab: 6 },
 ];
 
 type Term = {
