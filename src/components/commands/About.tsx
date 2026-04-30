@@ -8,7 +8,7 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
   <p>
-    Bonjour, je m'appelle <HighlightSpan>Harold</HighlightSpan>.
+    Bonjour, je m'appelle <HighlightSpan>Nessyme</HighlightSpan>.
   </p>
   <p>
     Passionnée par l’informatique, j’ai choisi de me réorienter vers ce domaine en intégrant une formation de Technicienne Supérieure Systèmes et Réseaux, <br />
