@@ -13,8 +13,8 @@ const Skills: React.FC = () => {
       <br />
 
       <p>🏢 Environnements Microsoft :</p>
-      <p>- Active Directory :</p>
-      <p>- Microsoft 365 :</p>
+      <p>- Active Directory </p>
+      <p>- Microsoft 365 </p>
 
       <br />
 
