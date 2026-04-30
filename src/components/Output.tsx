@@ -47,7 +47,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           pwd: <GeneralOutput>/home/LibRComm</GeneralOutput>,
           themes: <Themes />,
           welcome: <Welcome />,
-          whoami: <GeneralOutput>visitor</GeneralOutput>,
+          whoami: <GeneralOutput>Nessyme - administratrice d'infrastructures sécurisées en devenir</GeneralOutput>,
           skills: <Skills />,
           experience: <Experience />,
         }[cmd]
