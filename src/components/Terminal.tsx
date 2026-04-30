@@ -32,7 +32,7 @@ export const commands: Command = [
 { cmd: "whoami", desc: "informations utilisateur", tab: 7 },
 
 // Parcours
-{ cmd: "education", desc: "formation et certifications", tab: 4 },
+{ cmd: "education", desc: "formations et certifications", tab: 4 },
 { cmd: "experience", desc: "expériences professionnelles", tab: 3 },
 
 // Compétences & projets
