@@ -44,9 +44,11 @@ const Welcome: React.FC = () => {
         <Seperator>----</Seperator>
 
         <div>
-          Tape `<Cmd>help</Cmd>` pour afficher la liste des commandes disponibles.
+          Tape <Cmd>help</Cmd> pour afficher la liste des commandes disponibles.
         </div>
+      </div>
 
+      {/* ✅ fermeture correcte de info-section + séparation claire */}
 
       <div className="illu-section">
         <PreImg>
