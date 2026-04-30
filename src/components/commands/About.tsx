@@ -16,7 +16,7 @@ const About: React.FC = () => {
     <br /><br />
     Au cours de mon parcours, j’ai développé des compétences en administration des systèmes, réseaux et sécurisation des infrastructures.
     <br /><br />
-    Je suis actuellement à la recherche d’un poste de Technicienne Informatique ou d’Administratrice d'Infrastructures sécurosées junior, <br />
+    Je suis actuellement à la recherche d’un poste de Technicienne Informatique ou d’Administratrice d'Infrastructures sécurisées junior, <br />
     afin de mettre en pratique mes compétences et continuer à évoluer dans un environnement technique stimulant.
   </p>
 </AboutWrapper>
