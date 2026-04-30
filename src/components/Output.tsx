@@ -9,7 +9,8 @@ import Help from "./commands/Help";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
 import Projects from "./commands/Projects";
-import Socials from "./commands/Socials";
+import Skills from "./commands/Skills";
+import Experience from "./commands/Experience";
 import Themes from "./commands/Themes";
 import { OutputContainer, UsageDiv } from "./styles/Output.styled";
 import { termContext } from "./Terminal";
@@ -44,10 +45,11 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           history: <History />,
           projects: <Projects />,
           pwd: <GeneralOutput>/home/LibRComm</GeneralOutput>,
-          socials: <Socials />,
           themes: <Themes />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
+          skills: <Skills />,
+          experience: <Experience />,
         }[cmd]
       }
     </OutputContainer>
