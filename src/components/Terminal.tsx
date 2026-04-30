@@ -27,20 +27,25 @@ type Command = {
 }[];
 
 export const commands: Command = [
-  { cmd: "about", desc: "présentation et parcours", tab: 8 },
-  { cmd: "clear", desc: "effacer le terminal", tab: 8 },
-  { cmd: "echo", desc: "print out anything", tab: 9 },
-  { cmd: "education", desc: "formation et certifications", tab: 4 },
-  { cmd: "email", desc: "send an email to me", tab: 8 },
-  { cmd: "gui", desc: "go to my portfolio in GUI", tab: 10 },
-  { cmd: "help", desc: "liste des commandes disponibles", tab: 9 },
-  { cmd: "history", desc: "voir l'historique des commandes", tab: 6 },
-  { cmd: "projects", desc: "mes projets techniques et homelab", tab: 5 },
-  { cmd: "pwd", desc: "affiche le répertoire courant", tab: 10 },
-  { cmd: "socials", desc: "check out my social accounts", tab: 6 },
-  { cmd: "themes", desc: "changer le thème du terminal", tab: 7 },
-  { cmd: "welcome", desc: "message de bienvenue", tab: 6 },
-  { cmd: "whoami", desc: "informations sur l'utilisateur actuel", tab: 7 },
+  // Présentation
+{ cmd: "about", desc: "présentation et parcours", tab: 8 },
+{ cmd: "whoami", desc: "informations utilisateur", tab: 7 },
+
+// Parcours
+{ cmd: "education", desc: "formation et certifications", tab: 4 },
+{ cmd: "experience", desc: "expériences professionnelles", tab: 3 },
+
+// Compétences & projets
+{ cmd: "skills", desc: "compétences techniques", tab: 6 },
+{ cmd: "projects", desc: "mes projets techniques", tab: 5 },
+
+// Contact
+{ cmd: "email", desc: "me contacter", tab: 8 },
+
+// Terminal
+{ cmd: "help", desc: "liste des commandes", tab: 9 },
+{ cmd: "clear", desc: "effacer le terminal", tab: 8 },
+{ cmd: "history", desc: "historique des commandes", tab: 6 },
 ];
 
 type Term = {
