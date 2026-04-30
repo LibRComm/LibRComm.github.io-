@@ -44,7 +44,7 @@ const Welcome: React.FC = () => {
         <Seperator>----</Seperator>
 
         <div>
-          Tape <Cmd>help</Cmd> pour afficher la liste des commandes disponibles.
+          Tape `help` pour afficher la liste des commandes disponibles.
         </div>
       </div>
 
