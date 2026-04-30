@@ -1,4 +1,4 @@
-# Terminal Portfolio Website 
+# LibRComm portfolio
 
 
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue?style=flat-square)
