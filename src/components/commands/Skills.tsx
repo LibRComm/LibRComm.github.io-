@@ -14,10 +14,7 @@ const Skills: React.FC = () => {
 
       <p>🏢 Environnements Microsoft :</p>
       <p>- Active Directory :</p>
-      <p>  • Gestion des utilisateurs et groupes</p>
-      <p>  • GPO (stratégies de groupe)</p>
       <p>- Microsoft 365 :</p>
-      <p>  • Administration des comptes et services</p>
 
       <br />
 
