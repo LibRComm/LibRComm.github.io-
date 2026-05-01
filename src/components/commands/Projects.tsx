@@ -39,8 +39,7 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-        “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+        Voici quelques projets réalisés dans mon homelab, autour de la virtualisation, du réseau et de la sécurité. <br />
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -62,21 +61,21 @@ const projects = [
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "Sécurisation réseau avec OPnsense",
+    desc: "Déploiement d’un firewall OPNsense avec configuration du routage, du NAT, des règles de sécurité et mise en place de services avancés (VPN, DNS sécurisé, IDS/IPS).",
+    url: "https://github.com/LibRComm/LibRComm.github.io/proxmox-homelab",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "Mise en place et sécurisation d’un outil de supervision réseau (ntopng)",
+    desc: "Dans le cadre de mon homelab, j’ai déployé ntopng afin d’analyser et superviser le trafic réseau en temps réel. J’ai également renforcé la sécurité de l’accès à l’interface en mettant en place un certificat TLS généré avec mkcert. Enfin, j’ai appliqué des bonnes pratiques de sécurisation pour protéger l’outil et limiter les accès non autorisés.",
+    url: "https://github.com/LibRComm/LibRComm.github.io/proxmox-homelab",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "Mettre en place un réseau Mesh",
+    desc: "Connecter deux cartes LoRa 32.",
+    url: "https://github.com/LibRComm/LibRComm.github.io/proxmox-homelab",
   },
 ];
 
