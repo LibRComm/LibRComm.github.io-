@@ -56,9 +56,9 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Mise en place d’une infrastructure virtualisée avec Proxmox",
+    desc: "Dans le cadre de mon homelab, j’ai installé Proxmox puis configuré l’environnement afin de le rendre fonctionnel et sécurisé. J’ai notamment défini une adresse IP statique, créé un utilisateur dédié afin d’éviter l’utilisation du compte root, et importé le certificat TLS dans mon navigateur pour sécuriser l’accès à l’interface. J’ai également adapté les dépôts pour permettre les mises à jour sans souscription, et déployé plusieurs machines virtuelles, dont un pare-feu OPNsense pour le filtrage du trafic. L’infrastructure a été organisée avec la mise en place de VLAN pour segmenter le réseau, ainsi que la création de templates afin d’uniformiser le déploiement des machines virtuelles. J’ai aussi appris à gérer le stockage, notamment via l’ajout de disques aux VM.",
+    url: "https://github.com/LibRComm/LibRComm.github.io/proxmox-homelab",
   },
   {
     id: 2,
