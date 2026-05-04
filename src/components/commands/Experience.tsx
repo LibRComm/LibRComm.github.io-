@@ -25,7 +25,7 @@ const Experience: React.FC = () => {
       <p>- Analyse des besoins en sécurité et performance</p>
       <p>- Propositions techniques : pare-feu, VPN, haute disponibilité</p>
       <p>- Optimisation des ressources</p>
-      <p>- Schématisation de l’architecture</p>
+      <p>- Schématisation de l’infrastructure réseau</p>
 
       <br />
 
