@@ -56,8 +56,8 @@ const projects = [
   {
     id: 1,
     title: "Mise en place d’une infrastructure virtualisée avec Proxmox",
-    desc: "Dans le cadre de mon homelab, j’ai installé Proxmox puis configuré l’environnement afin de le rendre fonctionnel et sécurisé. J’ai notamment défini une adresse IP statique, créé un utilisateur dédié afin d’éviter l’utilisation du compte root, et importé le certificat TLS dans mon navigateur pour sécuriser l’accès à l’interface. J’ai également adapté les dépôts pour permettre les mises à jour sans souscription, et déployé plusieurs machines virtuelles, dont un pare-feu OPNsense pour le filtrage du trafic. L’infrastructure a été organisée avec la mise en place de VLAN pour segmenter le réseau, ainsi que la création de templates afin d’uniformiser le déploiement des machines virtuelles. J’ai aussi appris à gérer le stockage, notamment via l’ajout de disques aux VM.",
-    url: "https://github.com/LibRComm/LibRComm.github.io/proxmox-homelab",
+    desc: "Installation et sécurisation de Proxmox dans mon homelab : déploiement de VM (dont un pare-feu OPNsense), gestion du réseau avec VLAN, standardisation via templates et administration du stockage..",
+    url: "https://github.com/LibRComm/LibRComm.github.io-/wiki/%23-Proxmox",
   },
   {
     id: 2,
