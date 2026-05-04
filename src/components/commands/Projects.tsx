@@ -56,7 +56,7 @@ const projects = [
   {
     id: 1,
     title: "Mise en place d’une infrastructure virtualisée avec Proxmox",
-    desc: "Installation et sécurisation de Proxmox dans mon homelab : déploiement de VM (dont un pare-feu OPNsense), gestion du réseau avec VLAN, standardisation via templates et administration du stockage..",
+    desc: "Installation et sécurisation de Proxmox dans mon homelab : déploiement de VM (dont un pare-feu OPNsense), gestion du réseau avec VLAN, standardisation via templates et administration du stockage.",
     url: "https://github.com/LibRComm/LibRComm.github.io-/wiki/%23-Proxmox",
   },
   {
