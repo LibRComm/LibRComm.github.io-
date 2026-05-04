@@ -63,7 +63,7 @@ const projects = [
     id: 2,
     title: "Sécurisation réseau avec OPnsense",
     desc: "Déploiement d’un firewall OPNsense avec configuration du routage, du NAT, des règles de sécurité et mise en place de services avancés (VPN, DNS sécurisé, IDS/IPS).",
-    url: "https://github.com/LibRComm/LibRComm.github.io/proxmox-homelab",
+    url: "https://github.com/LibRComm/LibRComm.github.io-/wiki/%23-OPNsense",
   },
   {
     id: 3,
