@@ -8,7 +8,7 @@ const Skills: React.FC = () => {
 
       <p>🖥️ Systèmes :</p>
       <p>- Windows</p>
-      <p>- Linux (administration de base)</p>
+      <p>- Linux</p>
 
       <br />
 
