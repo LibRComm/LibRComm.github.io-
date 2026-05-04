@@ -34,8 +34,8 @@ const Skills: React.FC = () => {
       <p>🌐 Réseaux :</p>
       <p>- TCP/IP, DNS, DHCP</p>
       <p>- VPN :</p>
-      <p>  • WireGuard (configuration en environnement de test)</p>
-      <p>  • OpenVPN (mise en place de connexions sécurisées)</p>
+      <p>  • WireGuard</p>
+      <p>  • OpenVPN</p>
       <p>- Firewall :</p>
       <p>  • pfSense</p>
       <p>  • OPNsense</p>
@@ -57,7 +57,7 @@ const Skills: React.FC = () => {
       <br />
 
       <p>🔐 Cybersécurité :</p>
-      <p>- Nmap (scan réseau)</p>
+      <p>- Nmap</p>
       <p>- Greenbone (audit de vulnérabilités)</p>
 
       <br />
