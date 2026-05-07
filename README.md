@@ -1,4 +1,4 @@
-# LibRComm portfolio : Bienvenue sur mon portfolio Terminal !
+# Bienvenue sur mon portfolio Terminal !
 
 Passionnée d’IT et d’Open Source, j’ai créé ce portfolio sous forme de terminal interactif afin de présenter mes projets, mon homelab et les différentes expérimentations que je réalise au quotidien.
 
